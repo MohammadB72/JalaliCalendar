@@ -479,7 +479,7 @@ public class JalaliCalendar extends Calendar {
         boolean temp = isTimeSet;
         if (!areFieldsSet) {
             setMinimalDaysInFirstWeek(1);
-            setFirstDayOfWeek(7);
+            setFirstDayOfWeek(Calendar.FRIDAY);
 
             //Day_Of_Year
             int dayOfYear = 0;
